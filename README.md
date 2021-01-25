@@ -15,7 +15,7 @@
 
 ## Usage
 ---
-
+1. upload files to remote server
 ```js
 const sftp = new SftpConnection({
     host: '127.0.0.1',
