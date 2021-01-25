@@ -1,17 +1,14 @@
 ## sftp-connection
----
 
 ![npm](https://img.shields.io/npm/v/sftp-connection)
 ![npm](https://img.shields.io/npm/dm/sftp-connection)
 ![NPM](https://img.shields.io/npm/l/sftp-connection)
 
 ## Installation
----
 
 `npm i -D sftp-connection`
 
 ## Usage
----
 
 1. upload files to remote server
 
