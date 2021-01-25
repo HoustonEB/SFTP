@@ -34,5 +34,11 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "glob": "^7.1.6",
+    "progress": "^2.0.3",
+    "ssh2": "^0.8.9"
   }
 }
