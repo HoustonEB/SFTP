@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/HoustonEB/SFTP/compare/v1.0.2...v1.0.3) (2021-01-26)
+
+
+### Features
+
+* 添加密钥登录 ([a209884](https://github.com/HoustonEB/SFTP/commit/a209884e5488d5c488f559644d6f52411d32b835))
+
+
+
 ## [1.0.2](https://github.com/HoustonEB/SFTP/compare/v1.0.1...v1.0.2) (2021-01-25)
 
 
