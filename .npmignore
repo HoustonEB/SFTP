@@ -1,6 +1,7 @@
 .git
 .npmrc
-/node_modules/
-/test/
+npm-debug.log
+/node_modules/*
+/test/*
 babel.config.json
 webpack.config.js
