@@ -1,0 +1,6 @@
+.git
+.npmrc
+/node_modules/
+/test/
+babel.config.json
+webpack.config.js

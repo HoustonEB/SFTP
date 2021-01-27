@@ -13,15 +13,18 @@
 1. upload files to remote server
 
 ```js
+const SftpConnection = require('sftp-connection');
+const { readFileSync } = require('fs');
 const sftp = new SftpConnection({
     host: '127.0.0.1',
     port: 22,
     username: 'root',
-    password: 'password'
+    password: 'password' // or privateKey: readFileSync('/xx/xxx/.ssh/id_rsa')
 });
 
 sftp.upload({
-    localPath: '/root/project/',
+    localPathPrefix: '/root/project/',
+    localPath: '/root/project/**/*', // glob rules
     remotePath: '/usr/nginx/html/project/
 });
 ```

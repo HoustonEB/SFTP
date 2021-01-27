@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "build": "webpack"
   },
   "bin": {
     "sftp-connection": "bin/sftp-connection.js"
@@ -25,7 +26,13 @@
   },
   "homepage": "https://github.com/HoustonEB/SFTP#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.4.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -36,6 +43,7 @@
     }
   },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "chalk": "^4.1.0",
     "glob": "^7.1.6",
     "progress": "^2.0.3",
